@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11B1846E2DF6FE2F001E0C89 /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B184662DF6FE2F001E0C89 /* DataHandler.m */; };
+		11B1846F2DF6FE2F001E0C89 /* VTCompressionH264Decode.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B184612DF6FE2F001E0C89 /* VTCompressionH264Decode.m */; };
+		11B184702DF6FE2F001E0C89 /* VTCompressionH264Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B184632DF6FE2F001E0C89 /* VTCompressionH264Encode.m */; };
+		11B184712DF6FE2F001E0C89 /* NSData+HexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1846A2DF6FE2F001E0C89 /* NSData+HexDump.m */; };
+		11B184722DF6FE2F001E0C89 /* H264Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B184682DF6FE2F001E0C89 /* H264Encoder.m */; };
+		11B184732DF6FE2F001E0C89 /* VideoServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1846C2DF6FE2F001E0C89 /* VideoServer.m */; };
+		11B184742DF6FE2F001E0C89 /* VTCompressionH264Decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184602DF6FE2F001E0C89 /* VTCompressionH264Decode.h */; };
+		11B184752DF6FE2F001E0C89 /* VideoServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B1846B2DF6FE2F001E0C89 /* VideoServer.h */; };
+		11B184762DF6FE2F001E0C89 /* NSData+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184692DF6FE2F001E0C89 /* NSData+HexDump.h */; };
+		11B184772DF6FE2F001E0C89 /* DataHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184652DF6FE2F001E0C89 /* DataHandler.h */; };
+		11B184782DF6FE2F001E0C89 /* VTCompressionH264Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184622DF6FE2F001E0C89 /* VTCompressionH264Encode.h */; };
+		11B184792DF6FE2F001E0C89 /* H264Encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184672DF6FE2F001E0C89 /* H264Encoder.h */; };
+		11B1847A2DF6FE2F001E0C89 /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B184662DF6FE2F001E0C89 /* DataHandler.m */; };
+		11B1847B2DF6FE2F001E0C89 /* VTCompressionH264Decode.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B184612DF6FE2F001E0C89 /* VTCompressionH264Decode.m */; };
+		11B1847C2DF6FE2F001E0C89 /* VTCompressionH264Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B184632DF6FE2F001E0C89 /* VTCompressionH264Encode.m */; };
+		11B1847D2DF6FE2F001E0C89 /* NSData+HexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1846A2DF6FE2F001E0C89 /* NSData+HexDump.m */; };
+		11B1847E2DF6FE2F001E0C89 /* H264Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B184682DF6FE2F001E0C89 /* H264Encoder.m */; };
+		11B1847F2DF6FE2F001E0C89 /* VideoServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1846C2DF6FE2F001E0C89 /* VideoServer.m */; };
+		11B184802DF6FE2F001E0C89 /* VTCompressionH264Decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184602DF6FE2F001E0C89 /* VTCompressionH264Decode.h */; };
+		11B184812DF6FE2F001E0C89 /* VideoServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B1846B2DF6FE2F001E0C89 /* VideoServer.h */; };
+		11B184822DF6FE2F001E0C89 /* NSData+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184692DF6FE2F001E0C89 /* NSData+HexDump.h */; };
+		11B184832DF6FE2F001E0C89 /* DataHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184652DF6FE2F001E0C89 /* DataHandler.h */; };
+		11B184842DF6FE2F001E0C89 /* VTCompressionH264Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184622DF6FE2F001E0C89 /* VTCompressionH264Encode.h */; };
+		11B184852DF6FE2F001E0C89 /* H264Encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B184672DF6FE2F001E0C89 /* H264Encoder.h */; };
 		1357E296233D05240054BDB8 /* XCUIHitPointResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1357E295233D05240054BDB8 /* XCUIHitPointResult.h */; };
 		1357E297233D05240054BDB8 /* XCUIHitPointResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1357E295233D05240054BDB8 /* XCUIHitPointResult.h */; };
 		13815F6F2328D20400CDAB61 /* FBActiveAppDetectionPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13815F6D2328D20400CDAB61 /* FBActiveAppDetectionPoint.h */; };
@@ -918,6 +942,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11B184602DF6FE2F001E0C89 /* VTCompressionH264Decode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTCompressionH264Decode.h; sourceTree = "<group>"; };
+		11B184612DF6FE2F001E0C89 /* VTCompressionH264Decode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTCompressionH264Decode.m; sourceTree = "<group>"; };
+		11B184622DF6FE2F001E0C89 /* VTCompressionH264Encode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTCompressionH264Encode.h; sourceTree = "<group>"; };
+		11B184632DF6FE2F001E0C89 /* VTCompressionH264Encode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTCompressionH264Encode.m; sourceTree = "<group>"; };
+		11B184652DF6FE2F001E0C89 /* DataHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataHandler.h; sourceTree = "<group>"; };
+		11B184662DF6FE2F001E0C89 /* DataHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataHandler.m; sourceTree = "<group>"; };
+		11B184672DF6FE2F001E0C89 /* H264Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H264Encoder.h; sourceTree = "<group>"; };
+		11B184682DF6FE2F001E0C89 /* H264Encoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H264Encoder.m; sourceTree = "<group>"; };
+		11B184692DF6FE2F001E0C89 /* NSData+HexDump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+HexDump.h"; sourceTree = "<group>"; };
+		11B1846A2DF6FE2F001E0C89 /* NSData+HexDump.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexDump.m"; sourceTree = "<group>"; };
+		11B1846B2DF6FE2F001E0C89 /* VideoServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoServer.h; sourceTree = "<group>"; };
+		11B1846C2DF6FE2F001E0C89 /* VideoServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoServer.m; sourceTree = "<group>"; };
 		1357E295233D05240054BDB8 /* XCUIHitPointResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCUIHitPointResult.h; sourceTree = "<group>"; };
 		13815F6D2328D20400CDAB61 /* FBActiveAppDetectionPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBActiveAppDetectionPoint.h; sourceTree = "<group>"; };
 		13815F6E2328D20400CDAB61 /* FBActiveAppDetectionPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBActiveAppDetectionPoint.m; sourceTree = "<group>"; };
@@ -1489,6 +1525,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11B184642DF6FE2F001E0C89 /* H264 */ = {
+			isa = PBXGroup;
+			children = (
+				11B184602DF6FE2F001E0C89 /* VTCompressionH264Decode.h */,
+				11B184612DF6FE2F001E0C89 /* VTCompressionH264Decode.m */,
+				11B184622DF6FE2F001E0C89 /* VTCompressionH264Encode.h */,
+				11B184632DF6FE2F001E0C89 /* VTCompressionH264Encode.m */,
+			);
+			path = H264;
+			sourceTree = "<group>";
+		};
+		11B1846D2DF6FE2F001E0C89 /* VideoServer */ = {
+			isa = PBXGroup;
+			children = (
+				11B184642DF6FE2F001E0C89 /* H264 */,
+				11B184652DF6FE2F001E0C89 /* DataHandler.h */,
+				11B184662DF6FE2F001E0C89 /* DataHandler.m */,
+				11B184672DF6FE2F001E0C89 /* H264Encoder.h */,
+				11B184682DF6FE2F001E0C89 /* H264Encoder.m */,
+				11B184692DF6FE2F001E0C89 /* NSData+HexDump.h */,
+				11B1846A2DF6FE2F001E0C89 /* NSData+HexDump.m */,
+				11B1846B2DF6FE2F001E0C89 /* VideoServer.h */,
+				11B1846C2DF6FE2F001E0C89 /* VideoServer.m */,
+			);
+			name = VideoServer;
+			path = WebDriverAgentLib/VideoServer;
+			sourceTree = SOURCE_ROOT;
+		};
 		498495C81BB2E6FA009CC848 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -2130,6 +2194,7 @@
 		EEC288F81BF0ED2500B4DC79 /* WebDriverAgentLib */ = {
 			isa = PBXGroup;
 			children = (
+				11B1846D2DF6FE2F001E0C89 /* VideoServer */,
 				E444DC4A24912EC40060D7EB /* Vendor */,
 				EE9AB73E1CAEDF0C008C271F /* Categories */,
 				EE9AB74F1CAEDF0C008C271F /* Commands */,
@@ -2419,6 +2484,12 @@
 				641EE69F2240C5CA00173FCB /* FBTCPSocket.h in Headers */,
 				641EE6A02240C5CA00173FCB /* XCUIElement+FBUID.h in Headers */,
 				641EE6A12240C5CA00173FCB /* XCSymbolicationRecord.h in Headers */,
+				11B184742DF6FE2F001E0C89 /* VTCompressionH264Decode.h in Headers */,
+				11B184752DF6FE2F001E0C89 /* VideoServer.h in Headers */,
+				11B184762DF6FE2F001E0C89 /* NSData+HexDump.h in Headers */,
+				11B184772DF6FE2F001E0C89 /* DataHandler.h in Headers */,
+				11B184782DF6FE2F001E0C89 /* VTCompressionH264Encode.h in Headers */,
+				11B184792DF6FE2F001E0C89 /* H264Encoder.h in Headers */,
 				641EE6A22240C5CA00173FCB /* XCUIDevice.h in Headers */,
 				7182272F258744B000661B83 /* RoutingHTTPServer.h in Headers */,
 				641EE6A32240C5CA00173FCB /* XCUIApplication+FBTouchAction.h in Headers */,
@@ -2746,6 +2817,12 @@
 				EE35AD151E3B77D600A02D78 /* CDStructures.h in Headers */,
 				71E75E6D254824230099FC87 /* XCUIElementQuery+FBHelpers.h in Headers */,
 				EE35AD311E3B77D600A02D78 /* XCKeyboardLayout.h in Headers */,
+				11B184802DF6FE2F001E0C89 /* VTCompressionH264Decode.h in Headers */,
+				11B184812DF6FE2F001E0C89 /* VideoServer.h in Headers */,
+				11B184822DF6FE2F001E0C89 /* NSData+HexDump.h in Headers */,
+				11B184832DF6FE2F001E0C89 /* DataHandler.h in Headers */,
+				11B184842DF6FE2F001E0C89 /* VTCompressionH264Encode.h in Headers */,
+				11B184852DF6FE2F001E0C89 /* H264Encoder.h in Headers */,
 				716C9DFA27315D21005AD475 /* FBReflectionUtils.h in Headers */,
 				E444DCB624913C220060D7EB /* RouteRequest.h in Headers */,
 				71F5BE23252E576C00EE9EBA /* XCUIElement+FBSwiping.h in Headers */,
@@ -3159,6 +3236,12 @@
 				641EE5F42240C5CA00173FCB /* XCUIDevice+FBRotation.m in Sources */,
 				13815F722328D20400CDAB61 /* FBActiveAppDetectionPoint.m in Sources */,
 				71D475C52538F5A8008D9401 /* XCUIApplicationProcess+FBQuiescence.m in Sources */,
+				11B1846E2DF6FE2F001E0C89 /* DataHandler.m in Sources */,
+				11B1846F2DF6FE2F001E0C89 /* VTCompressionH264Decode.m in Sources */,
+				11B184702DF6FE2F001E0C89 /* VTCompressionH264Encode.m in Sources */,
+				11B184712DF6FE2F001E0C89 /* NSData+HexDump.m in Sources */,
+				11B184722DF6FE2F001E0C89 /* H264Encoder.m in Sources */,
+				11B184732DF6FE2F001E0C89 /* VideoServer.m in Sources */,
 				641EE5F52240C5CA00173FCB /* XCUIElement+FBUID.m in Sources */,
 				641EE5F62240C5CA00173FCB /* FBRouteRequest.m in Sources */,
 				641EE5F72240C5CA00173FCB /* FBResponseJSONPayload.m in Sources */,
@@ -3300,6 +3383,12 @@
 				EE158ABD1CBD456F00A3E3F0 /* FBDebugCommands.m in Sources */,
 				716E0BCF1E917E810087A825 /* NSString+FBXMLSafeString.m in Sources */,
 				71BB58EA2B96328700CB9BFE /* FBScreenRecordingRequest.m in Sources */,
+				11B1847A2DF6FE2F001E0C89 /* DataHandler.m in Sources */,
+				11B1847B2DF6FE2F001E0C89 /* VTCompressionH264Decode.m in Sources */,
+				11B1847C2DF6FE2F001E0C89 /* VTCompressionH264Encode.m in Sources */,
+				11B1847D2DF6FE2F001E0C89 /* NSData+HexDump.m in Sources */,
+				11B1847E2DF6FE2F001E0C89 /* H264Encoder.m in Sources */,
+				11B1847F2DF6FE2F001E0C89 /* VideoServer.m in Sources */,
 				EE158ACD1CBD456F00A3E3F0 /* FBUnknownCommands.m in Sources */,
 				EE158AC51CBD456F00A3E3F0 /* FBOrientationCommands.m in Sources */,
 				716F0DA32A16CA1000CDD977 /* NSDictionary+FBUtf8SafeDictionary.m in Sources */,
@@ -3561,6 +3650,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = WebDriverAgentRunner/Info.plist;
@@ -3621,6 +3711,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = WebDriverAgentRunner/Info.plist;
@@ -3994,9 +4085,11 @@
 			baseConfigurationReference = EEE5CABF1C80361500CBBDD9 /* IOSSettings.xcconfig */;
 			buildSettings = {
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4059,8 +4152,10 @@
 			baseConfigurationReference = EEE5CABF1C80361500CBBDD9 /* IOSSettings.xcconfig */;
 			buildSettings = {
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4125,6 +4220,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentTests/IntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4143,6 +4239,7 @@
 			baseConfigurationReference = 71649EC82518C19C0087F212 /* IOSTestSettings.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentTests/IntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4163,6 +4260,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentTests/IntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4181,6 +4279,7 @@
 			baseConfigurationReference = 71649EC82518C19C0087F212 /* IOSTestSettings.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentTests/IntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4200,6 +4299,7 @@
 			baseConfigurationReference = 71649EC82518C19C0087F212 /* IOSTestSettings.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentTests/UnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4216,6 +4316,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71649EC82518C19C0087F212 /* IOSTestSettings.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentTests/UnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4236,6 +4337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				INFOPLIST_FILE = WebDriverAgentTests/IntegrationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4252,6 +4354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				INFOPLIST_FILE = WebDriverAgentTests/IntegrationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4269,6 +4372,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentTests/IntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4287,6 +4391,7 @@
 			baseConfigurationReference = 71649EC82518C19C0087F212 /* IOSTestSettings.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentTests/IntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4307,6 +4412,7 @@
 			buildSettings = {
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentRunner/Info.plist;
@@ -4359,6 +4465,7 @@
 			baseConfigurationReference = EEE5CABF1C80361500CBBDD9 /* IOSSettings.xcconfig */;
 			buildSettings = {
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				DEVELOPMENT_TEAM = 9BFT4GFW72;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentRunner/Info.plist;

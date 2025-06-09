@@ -25,6 +25,8 @@
 #import "FBLogger.h"
 
 #import "XCUIDevice+FBHelpers.h"
+#import "VideoServer.h"
+
 
 static NSString *const FBServerURLBeginMarker = @"ServerURLHere->";
 static NSString *const FBServerURLEndMarker = @"<-ServerURLHere";
@@ -48,6 +50,8 @@ static NSString *const FBServerURLEndMarker = @"<-ServerURLHere";
 @property (nonatomic, strong) RoutingHTTPServer *server;
 @property (atomic, assign) BOOL keepAlive;
 @property (nonatomic, nullable) FBTCPSocket *screenshotsBroadcaster;
+@property (nonatomic, nullable) FBTCPSocket *screenvideoBroadcaster;
+
 @end
 
 @implementation FBWebServer
@@ -73,6 +77,8 @@ static NSString *const FBServerURLEndMarker = @"<-ServerURLHere";
   self.exceptionHandler = [FBExceptionHandler new];
   [self startHTTPServer];
   [self initScreenshotsBroadcaster];
+  [self initVideoScreenBroadcaster];
+
 
   self.keepAlive = YES;
   NSRunLoop *runLoop = [NSRunLoop mainRunLoop];
@@ -135,6 +141,35 @@ static NSString *const FBServerURLEndMarker = @"<-ServerURLHere";
   }
 
   [self.screenshotsBroadcaster stop];
+}
+
+- (void)startVideoService {
+  [self initVideoScreenBroadcaster];
+}
+
+- (void)stopVideoService {
+  if (nil == self.screenvideoBroadcaster) {
+    return;
+  }
+  [self.screenvideoBroadcaster stop];
+}
+
+- (void)initVideoScreenBroadcaster {
+  [self readMjpegSettingsFromEnv];
+  NSInteger videoPort = 10001;
+
+  self.screenvideoBroadcaster = [[FBTCPSocket alloc]
+                                 initWithPort:(uint16_t)videoPort];
+  
+  self.screenvideoBroadcaster.delegate = [[VideoServer alloc] init];
+  NSError *error;
+  if (![self.screenvideoBroadcaster startWithError:&error]) {
+    [FBLogger logFmt:@"Cannot init Video broadcaster service on port %@. Original error: %@", @(videoPort), error.description];
+    self.screenvideoBroadcaster = nil;
+  } else {
+    [FBLogger log:@"screenvideoBroadcaster start successed"];
+
+  }
 }
 
 - (void)readMjpegSettingsFromEnv
